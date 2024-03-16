@@ -31,7 +31,7 @@ def Contact():
 @app.route('/catalog')
 
 def Catalog():
-    return render_template('catalog.html', data = )
+    return render_template('catalog.html') #, data = )
 
 if __name__ == '__main__':    
     app.run(port = 3000, debug=True)

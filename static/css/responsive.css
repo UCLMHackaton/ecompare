@@ -185,10 +185,12 @@
 	.show-x {
 		display: block;
 	}
-	.navbar-toggler {
-		margin: 0;
+	.navbar-toggler {		
+		margin: 0;		
 		width: 63px;
 		height: 42px;
+		top: 100%;
+		right: 300%;
 	}
 	.navbar-toggler span {
 		width: 23px;
@@ -266,6 +268,8 @@
 	}
 	.heading-center .heading-titles {
 		padding: 80px 0;
+		padding-top: 70px;
+		padding-bottom: 20px;
 	}
 	.team-main {
 		padding: 0;

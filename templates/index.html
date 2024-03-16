@@ -30,11 +30,10 @@
                     <!-- Header Logos -->
                     <a href="/" class="logo">
                         <span class="logo-light">
-                            <img src="static/images/logos/50logo-h4g.png" alt="Logo">
+                            <img src="static/images/logos/logo-ecompare-32.png" alt="Logo" >
                         </span>
                         <span class="logo-dark">
-                            <img src="static/images/logos/50logo-h4g.png" alt="Logo">
-                        </span>
+                            <img src="static/images/logos/logo-ecompare-32.png" alt="Logo" >
                     </a>
                     <!-- Header buttons -->
                     <div class="header-btns">
@@ -53,6 +52,9 @@
                             <span></span>
                         </button>
                     </div>
+                    <div class="header-content">
+                        <img src="static/images/products/carrito.png" alt="" size="" srcset="" style="width: 53.333%;">
+                    </div>
                     <!-- Mega menu full page -->
                     <div class="mega-menu">
                         <div class="container-fluid">
@@ -69,13 +71,7 @@
                                         <a href="tel:+34925721010" class="hover-underline">
                                             <span class="link-text">+34 925 72 10 10</span>
                                         </a>                                        
-                                    </div>
-                                    <div class="info-item">
-                                        <h2>Email</h2>
-                                        <a href="mailto:paulinoesteban.bermudez@alu.uclm.com" class="hover-underline light-line">
-                                            <span class="link-text">hello@talprice.com</span>
-                                        </a>
-                                    </div>
+                                    </div>                                    
                                 </div>
                                 <!-- Info menu central -->
                                 <ul class="mega-menu-items">
@@ -85,9 +81,14 @@
                                         </a>
                                     </li>                                    
                                     <p style="color: aqua;">                                    
-                                        ________________________________ <br>                           
-                                        Análisis del ...
+                                        ________________________________ <br>
                                     </p>
+                                    <!-- ECOMPARE -->
+                                    <li>
+                                        <a href="dia" class="mega-menu-link hover-underline light-line link-cursor">
+                                            <span class="link-text">ECOMPARE</span>
+                                        </a>
+                                    </li>
                                     <!-- Supermercados Dia -->
                                     <li>
                                         <a href="dia" class="mega-menu-link hover-underline light-line link-cursor">
@@ -98,14 +99,14 @@
                                     <!-- Carrefour -->
                                     <li>
                                         <a href="carrefour" class="mega-menu-link hover-underline light-line link-cursor">
-                                            <span class="link-text">Carrefour</span>
+                                            <span class="link-text">CARREFOUR</span>
                                         </a>
                                     </li>
                                     <!-- end Carrefour -->
                                     <!-- Mercadona -->
                                     <li>
                                         <a href="mercadona" class="mega-menu-link hover-underline light-line link-cursor">
-                                            <span class="link-text">Mercadona</span>
+                                            <span class="link-text">MERCADONA</span>
                                         </a>
                                     </li>
                                     <!-- end mercadona -->
@@ -166,11 +167,6 @@
                                     <p style="color: aqua;">
                                         ________________________________
                                     </p>
-                                    <li>
-                                        <a href="/contact" class="mega-menu-link hover-underline light-line link-cursor">
-                                            <span class="link-text">Contacts</span>
-                                        </a>
-                                    </li>
                                 </ul>
                                 <!-- Info contacto -->
                                 <div class="info-item">
@@ -181,12 +177,13 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- Mega menu background video -->
-                            <div class="menu-video">
-                                <video width="100" loop muted autoplay>
-                                    <source src="static/images/video/supermarket.mp4" type="video/mp4">
-                                </video>
-                            </div>
+                            <!-- Mega menu background video -->                                                            
+                                <div class="menu-video">
+                                    <video width="100" loop muted autoplay>
+                                        <source src="static/images/video/supermarket.mp4" type="video/mp4">
+                                    </video>
+                                    <div  class="overlay"></div>
+                                </div>                            
                         </div>
                     </div>
                 </div>
@@ -201,18 +198,28 @@
                 <div class="container-fluid">
                     <div class="heading-full heading-center">
                         <div></div>
-                        <div class="heading-titles">
-                            <h3 class="title-sub2">Precios transparentes, decisiones fáciles</h3>
-                            <h1 class="title">Tal - Price</h1>
-                        </div>
+                        <div class="heading-titles">                                                        
+                            <h5 class="title" style="color: rgb(18, 18, 18);">
+                                <img src="static/images/partner/usersmall.png" alt="" style="padding-left: 15%;">                                 
+                                UCLM - Hack 4 Food
+                            </h5>
+                            <h1 style="padding-left: 33.333%; font-size: 40px;" >
+                                4090 <img src="static/images/ecoins/epoint.png" alt="" style="height: 15%; width: 15%;">                                
+                            </h1>
+                            <p>
+                                <img src="static" alt="">
+                            </p>
+                        </div>                        
                         <div class="heading-bottom mobile-center">
                             <div class="scroll-down">
                                 <span class="mouse-icon"></span>
                                 Scroll down
                             </div>
-                            <div class="hour current-hour">
+                            <!-- 
+                                <div class="hour current-hour">
                                 loading...
                             </div>
+                         -->
                         </div>
                     </div>
                 </div>
@@ -227,14 +234,18 @@
                             <div class="col-12 nopadding">
                                 <a href="cases-single" class="media-grid-item hover-underline-trigger link-cursor">
                                     <div class="media-grid-img">
-                                        <img src="static/images/case/case1.jpg" alt="Case">
+                                        <h3>Red Bull</h3>
+                                        <img src="static/images/case/redbull.png" alt="Case">                                        
                                     </div>
-                                    <div class="media-grid-text">
-                                        <h3>Mejores</h3>
+                                    <button class="button">Añadir</button>
+                                    <hr>
+                                    <!--
+                                    <div class="media-grid-text">                                        
                                         <h2 class="hover-underline light-line reverse">
-                                            <span class="link-text">FRUTAS Y VERDURAS FRESCAS</span>
+                                            <span class="link-text">Bebida Energética Regula</span>
                                         </h2>
                                     </div>
+                                    -->
                                     <div class="back-animation"></div>
                                 </a>
                             </div>
@@ -243,10 +254,12 @@
                             <div class="col-lg-6 col-12 nopadding">
                                 <a href="cases-single" class="media-grid-item hover-underline-trigger link-cursor">
                                     <div class="media-grid-img">
-                                        <img src="static/images/case/case2.jpg" alt="Case">
+                                        <h3>Croquetas Cocinera</h3>
+                                        <img src="static/images/case/croquetas.png" alt="Case">
                                     </div>
-                                    <div class="media-grid-text">
-                                        <h3>Facilidad</h3>
+                                    <button class="button">Añadir</button>
+                                    <hr>
+                                    <div class="media-grid-text">                                        
                                         <h2 class="hover-underline light-line reverse">
                                             <span class="link-text">en la entrega a domicilio</span>
                                         </h2>
@@ -257,10 +270,28 @@
                             <div class="col-lg-6 col-12 nopadding">
                                 <a href="cases-single" class="media-grid-item hover-underline-trigger link-cursor">
                                     <div class="media-grid-img">
-                                        <img src="static/images/case/case3.jpg" alt="Case">
+                                        <h3>Coca Cola</h3>
+                                        <img src="static/images/case/cocacola.png" alt="Case">
                                     </div>
-                                    <div class="media-grid-text">
-                                        <h3>Ahorro</h3>
+                                    <button class="button">Añadir</button>
+                                    <hr>
+                                    <div class="media-grid-text">                                        
+                                        <h2 class="hover-underline light-line reverse">
+                                            <span class="link-text">en la cesta de la compra</span>
+                                        </h2>
+                                    </div>
+                                    <div class="back-animation"></div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-12 nopadding">
+                                <a href="cases-single" class="media-grid-item hover-underline-trigger link-cursor">
+                                    <div class="media-grid-img">
+                                        <h3>Pasta Gallo</h3>
+                                        <img src="static/images/case/pastagallo.png" alt="Case">
+                                    </div>
+                                    <button class="button">Añadir</button>
+                                    <hr>
+                                    <div class="media-grid-text">                                        
                                         <h2 class="hover-underline light-line reverse">
                                             <span class="link-text">en la cesta de la compra</span>
                                         </h2>
@@ -530,7 +561,7 @@
                 </div>
             </section>
             <!-- Blog Intro End -->
-            <!-- Team Main -->
+            <!-- Team Main --
             <section class="team-main section-space">
                 <div class="container-fluid space">
                     <div class="team-main-container">
@@ -568,7 +599,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="footer-column">
-                            <h2 class="footer-title">Oficina</h2>
+                            <h2 class="footer-title">Centro</h2>
                             <p>Talavera de la Reina<br/>
                                 Avenida Real Fábrica de Sedas, s/n,<br/>
                                 45600, Talavera De La Reina (Toledo) · < 1 km
@@ -580,12 +611,13 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
                         <div class="footer-column">
-                            <h2 class="footer-title">Email</h2>
+                            <h2 class="footer-title">Copyright</h2>
                             <a href="mailto:paulinoesteban.bermudez@alu.uclm.es" class="hover-underline">
-                                <span class="link-text">hello@talprice.com</span>
+                                <span class="link-text">Prototipo de aplicación desarrollada por el equipo hackforfood en la 9ª edición de Hack For Good 2024</span>
                             </a>                            
                         </div>
                     </div>
+                    <!--
                     <div class="col-lg-6 col-12">
                         <div class="footer-column">
                             <hr>
@@ -594,6 +626,7 @@
                                     Comming soon...
                                 </i>
                             </p>
+                            <!---
                             <h2 class="footer-title">Subscribe</h2>
                             <form class="subscribe">
                                 <input type="text" class="form-input" placeholder="Email">
@@ -603,6 +636,7 @@
                                     </svg>
                                 </button>
                             </form>
+                        -->
                         </div>
                     </div>
                 </div>
