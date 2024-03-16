@@ -17,7 +17,7 @@ Utilizando técnicas de webscraping, <i>Ecompare</i> recopila información de lo
 <hr>
 
 ### Diseño inicial
-https://www.figma.com/file/fKSBYyRN9c5yMHgIkEyrFS/Untitled?type=design&node-id=0%3A1&mode=design&t=VRXtUSgJS2cv4XKY-1
+[Diseño Figma](https://www.figma.com/file/fKSBYyRN9c5yMHgIkEyrFS/Untitled?type=design&node-id=0%3A1&mode=design&t=VRXtUSgJS2cv4XKY-1)
 
 ### Desarrollo inicial realizado
 ![APP Ecompare](https://raw.githubusercontent.com/UCLMHackaton/ecompare/main/static/images/app/ecompare-app.jpg)
