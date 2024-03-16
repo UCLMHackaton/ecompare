@@ -24,10 +24,10 @@ Utilizando técnicas de webscraping, <i>Ecompare</i> recopila información de lo
 
 <hr>
 Equipo: <br>
-- JUAN CARLOS SUELA MARTÍN​
-- DANIEL LÓPEZ PAREDES​
-- PAULINO ESTEBAN BERMÚDEZ RODRÍGUEZ​
-- SERGIO DEL PINO GÓMEZ​
-- MARCOS ILLÁN LÓPEZ​
-- DANIEL DÍAZ GARCÍA​
-- IVÁN DEL PINO GARCÍA
+- JUAN CARLOS SUELA MARTÍN​ <br>
+- DANIEL LÓPEZ PAREDES​ <br>
+- PAULINO ESTEBAN BERMÚDEZ RODRÍGUEZ​ <br>
+- SERGIO DEL PINO GÓMEZ​ <br>
+- MARCOS ILLÁN LÓPEZ​ <br>
+- DANIEL DÍAZ GARCÍA​ <br>
+- IVÁN DEL PINO GARCÍA <br>
