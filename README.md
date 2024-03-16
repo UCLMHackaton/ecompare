@@ -1,7 +1,7 @@
 # Hack for Good - ECOMPARE.
 ## Talavera de la Reina.
 
-### Ecompare: Plataforma de Comparación de Precios de Supermercados
+### Ecompare: Plataforma de Comparación de Precios de Supermercados <br>
 <b>Descripción</b> <br>
 <i>Ecompare</i> es una plataforma diseñada para ayudar a los usuarios a comparar precios de productos en distintos supermercados y realizar compras de manera ecológica, económica o personalizable, todo desde un único lugar. <br>
 Utilizando técnicas de webscraping, <i>Ecompare</i> recopila información de los sitios web de supermercados asociados, compara precios y presenta resultados detallados al usuario de manera eco-sostenible.
@@ -17,8 +17,10 @@ Utilizando técnicas de webscraping, <i>Ecompare</i> recopila información de lo
 <hr>
 
 ### Diseño inicial
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FfKSBYyRN9c5yMHgIkEyrFS%2FUntitled%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DVRXtUSgJS2cv4XKY-1" allowfullscreen></iframe>
+https://www.figma.com/file/fKSBYyRN9c5yMHgIkEyrFS/Untitled?type=design&node-id=0%3A1&mode=design&t=VRXtUSgJS2cv4XKY-1
 
+### Desarrollo inicial realizado
+![APP Ecompare](https://raw.githubusercontent.com/UCLMHackaton/ecompare/main/static/images/app/ecompare-app.jpg)
 
 <hr>
 Equipo: <br>
